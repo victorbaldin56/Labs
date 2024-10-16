@@ -5,3 +5,5 @@
 *.ANO
 *.bak*
 *.TNO
+*.fdb_latexmk
+*.fls
