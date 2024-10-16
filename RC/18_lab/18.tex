@@ -42,7 +42,7 @@
 \huge\textbf{Работа 18}\\
 \line(1,0){430}\\[1mm]
 \vfill
-\large Сибгатуллин Булат, ФРКТ\\
+\large Балдин Виктор, ФРКТ\\
 \end{center}
 
 \end{titlepage}
@@ -205,7 +205,7 @@
 
 \begin{enumerate}
 
-\item Откроем модель \textbf{rc2pole.cir}. 
+\item Откроем модель \textbf{rc2pole.cir}.
 
 \begin{figure}[h!]
 \centering
@@ -223,16 +223,16 @@
 
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
-\hline 
- & ФВЧ & ПФ & ФНЧ \\ 
-\hline 
-0 & 180 & 90 & 0 \\ 
-\hline 
-$f_0$ & 90 & 0 & -90 \\ 
-\hline 
-$\infty$ & 0 & -90 & -180 \\ 
-\hline 
-\end{tabular} 
+\hline
+ & ФВЧ & ПФ & ФНЧ \\
+\hline
+0 & 180 & 90 & 0 \\
+\hline
+$f_0$ & 90 & 0 & -90 \\
+\hline
+$\infty$ & 0 & -90 & -180 \\
+\hline
+\end{tabular}
 \end{center}
 
 Двухсторонняя полоса $\triangle f$ пропускания ПФ $\approx$ 30 \textit{кГц}, что в три раза больше $f_0$. Это сходится с теорией.
@@ -263,7 +263,7 @@ $\infty$ & 0 & -90 & -180 \\
 \centering
 \includegraphics[scale=0.4]{phshift_omg.png}
 \label{fig:Image1}
-\end{figure} 
+\end{figure}
 
 \begin{figure}[h!]
 \centering
@@ -313,7 +313,7 @@ $\infty$ & 0 & -90 & -180 \\
 
 Варьирование приводит к усреднению функции.
 
-\item Откроем модель \textbf{2tdelay.cir}. 
+\item Откроем модель \textbf{2tdelay.cir}.
 
 \begin{figure}[h!]
 \centering
@@ -331,15 +331,15 @@ $\infty$ & 0 & -90 & -180 \\
 
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
-\hline 
-$R, \: \textit{кОм}$ & 4,9 & 5 & 5,1 \\ 
-\hline 
-$f_0, \: \textit{кГц}$ & 10,05 & 10 & 9,95 \\ 
-\hline 
-$\triangle f, \: \textit{кГц}$ & 0,05 & $10^{-4}\cdot 2,5$ & 0,05 \\ 
-\hline 
-$Q$ & 100,5 & 40000 & 99,5 \\ 
-\hline 
+\hline
+$R, \: \textit{кОм}$ & 4,9 & 5 & 5,1 \\
+\hline
+$f_0, \: \textit{кГц}$ & 10,05 & 10 & 9,95 \\
+\hline
+$\triangle f, \: \textit{кГц}$ & 0,05 & $10^{-4}\cdot 2,5$ & 0,05 \\
+\hline
+$Q$ & 100,5 & 40000 & 99,5 \\
+\hline
 \end{tabular}
 \end{center}
 
@@ -439,15 +439,15 @@ $Q$ & 100,5 & 40000 & 99,5 \\
 
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
-\hline 
-$R, \: \textit{Ом}$ & 10 & 20 & 40 & 100 \\ 
-\hline 
-$\tau_g, \: \textit{мс}$ & 0,5 & 0,29 & 0,152 & 0,064 \\ 
-\hline 
-$\tau_{\textit{теор}}, \: \textit{мс}$ & 0,62 & 0,31 & 0,155 & 0,06 \\ 
-\hline 
-Q & 195 & 98 & 49 & 19 \\ 
-\hline 
+\hline
+$R, \: \textit{Ом}$ & 10 & 20 & 40 & 100 \\
+\hline
+$\tau_g, \: \textit{мс}$ & 0,5 & 0,29 & 0,152 & 0,064 \\
+\hline
+$\tau_{\textit{теор}}, \: \textit{мс}$ & 0,62 & 0,31 & 0,155 & 0,06 \\
+\hline
+Q & 195 & 98 & 49 & 19 \\
+\hline
 \end{tabular}
 \end{center}
 
@@ -457,7 +457,7 @@ Q & 195 & 98 & 49 & 19 \\
 \centering
 \includegraphics[scale=0.4]{lcpower.png}
 \label{fig:Image1}
-\end{figure} 
+\end{figure}
 
 На частоте резонанса $f_0 = 250 \: \textit{кГц}$.
 
@@ -491,7 +491,7 @@ Q & 195 & 98 & 49 & 19 \\
 \centering
 \includegraphics[scale=0.4]{parallel_img.png}
 \label{fig:Image1}
-\end{figure} 
+\end{figure}
 
 \[\rho = \sqrt{\frac{L}{C}} = 568\]
 
@@ -505,13 +505,13 @@ Q & 195 & 98 & 49 & 19 \\
 
 \[Q = \frac{f_0}{\triangle f} = 8,6\]
 
-\item Изучим влияние на добротность последовательных потерь \textit{R}, установив варьирование $R = [0, 32 \Vert 32]$. 
+\item Изучим влияние на добротность последовательных потерь \textit{R}, установив варьирование $R = [0, 32 \Vert 32]$.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{parallel_AC1.png}
 \label{fig:Image1}
-\end{figure} 
+\end{figure}
 
 Добротность при $R = 0$:
 
@@ -529,20 +529,20 @@ Q & 195 & 98 & 49 & 19 \\
 \centering
 \includegraphics[scale=0.4]{parallel_AC2.png}
 \label{fig:Image1}
-\end{figure} 
+\end{figure}
 
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
-\hline 
-$R, \: \textit{Ом}$ & 0 & 50 & 100 & 150 \\ 
-\hline 
-$f_{\textit{эксп}}, \: \textit{кГц}$ & 100 & 99,6 & 98,42 & 96,4 \\ 
-\hline 
-$\beta$ & 0 & 0,088 & 0,176 & 0,264 \\ 
-\hline 
-$f_{\textit{теор}}$ & 100 & 99,6 & 98,43 & 96,45 \\ 
-\hline 
-\end{tabular} 
+\hline
+$R, \: \textit{Ом}$ & 0 & 50 & 100 & 150 \\
+\hline
+$f_{\textit{эксп}}, \: \textit{кГц}$ & 100 & 99,6 & 98,42 & 96,4 \\
+\hline
+$\beta$ & 0 & 0,088 & 0,176 & 0,264 \\
+\hline
+$f_{\textit{теор}}$ & 100 & 99,6 & 98,43 & 96,45 \\
+\hline
+\end{tabular}
 \end{center}
 
 \item Исследуем влияние последовательных потерь в области низких частот. Установим частотный диапазон от $1 \: \textit{кГц}$ до $130 \: \textit{кГц}$ и будем варьировать $R = [0,20 \Vert 2]$.
@@ -551,9 +551,9 @@ $f_{\textit{теор}}$ & 100 & 99,6 & 98,43 & 96,45 \\
 \centering
 \includegraphics[scale=0.4]{parallel_AC3.png}
 \label{fig:Image1}
-\end{figure} 
+\end{figure}
 
-Получаем, что при $R = 12 \: \textit{Ом}$ фазовый сдвиг на частоте $f = 2 \: \textit{кГц}$ составляет $\pi / 4$. 
+Получаем, что при $R = 12 \: \textit{Ом}$ фазовый сдвиг на частоте $f = 2 \: \textit{кГц}$ составляет $\pi / 4$.
 
 \end{enumerate}
 
@@ -613,12 +613,12 @@ $f_{\textit{теор}}$ & 100 & 99,6 & 98,43 & 96,45 \\
 
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
-\hline 
-$R, \: \textit{Ом}$ & 500 & 1000 & 1500 & 2000 \\ 
-\hline 
-$Z, \: \textit{кОм}$ & 247 & 124,4 & 83 & 61,9 \\ 
-\hline 
-\end{tabular} 
+\hline
+$R, \: \textit{Ом}$ & 500 & 1000 & 1500 & 2000 \\
+\hline
+$Z, \: \textit{кОм}$ & 247 & 124,4 & 83 & 61,9 \\
+\hline
+\end{tabular}
 \end{center}
 
 Получаем зависимость:
@@ -633,12 +633,12 @@ $Z, \: \textit{кОм}$ & 247 & 124,4 & 83 & 61,9 \\
 
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
-\hline 
-$C_0, \: \textit{пФ}$ & 100 & 200 & 300 \\ 
-\hline 
-$Z, \: \textit{кОм}$ & 78,3 & 25,4 & 11,9 \\ 
-\hline 
-\end{tabular} 
+\hline
+$C_0, \: \textit{пФ}$ & 100 & 200 & 300 \\
+\hline
+$Z, \: \textit{кОм}$ & 78,3 & 25,4 & 11,9 \\
+\hline
+\end{tabular}
 \end{center}
 
 Получаем зависимость:
